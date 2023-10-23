@@ -1,0 +1,144 @@
+.header {
+  padding: 45px 178px 0 178px !important;
+  background: url('../../../public/img/main-bg.svg') 0 0 / auto auto no-repeat;
+  color: #fff;
+  font-family: Merienda;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+
+  .header_nav {
+    ul {
+      display: flex;
+      margin: 0px 0px 111px 0px;
+      li {
+        &:first-child {
+          position: relative;
+          &::before {
+            content: '';
+            background-image: url('../../../public/img/icons/coffee-beans.svg');
+            position: absolute;
+            display: block;
+            bottom: 4px;
+            left: -32px;
+            height: 35px;
+            width: 35px;
+            z-index: 1;
+          }
+        }
+        &:not(:last-child) {
+          margin: 0px 40px 0px 0px;
+        }
+      }
+    }
+  }
+
+  .header_about {
+    width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    h1 {
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 40px;
+      font-weight: 700;
+      margin: 0px 0px 20px 0px;
+    }
+    .beans_img {
+      display: inline-block;
+      margin: 0px 0px 35px 0px;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        top: 50%;
+        right: 200%;
+        width: 60px;
+        height: 1px;
+        background-color: #fff;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+      &::after {
+        position: absolute;
+        content: '';
+        top: 50%;
+        left: 200%;
+        width: 60px;
+        height: 1px;
+        background-color: #fff;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0px 0px 20px 0px;
+    }
+    button {
+      border-radius: 3px;
+      border: 1px solid #fff;
+      background: rgba(196, 196, 196, 0);
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      font-size: 14px;
+      font-weight: 700;
+      padding: 5px 42px 10px 42px;
+      width: 120px;
+      height: 30px;
+      margin: 0px 0px 201px 0px;
+    }
+  }
+
+  .about_us {
+    width: 590px;
+    margin: 0 auto;
+    color: #000;
+    font-size: 24px;
+
+    .beans_img_black {
+      display: inline-block;
+      margin: 0px 0px 41px 0px;
+
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        top: 50%;
+        right: 200%;
+        width: 60px;
+        height: 1px;
+        background-color: black;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+      &::after {
+        position: absolute;
+        content: '';
+        top: 50%;
+        left: 200%;
+        width: 60px;
+        height: 1px;
+        background-color: black;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+      }
+    }
+
+    h3 {
+      margin: 80px 0px 20px 0px;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      &:not(:last-child) {
+        margin: 0px 0px 20px 0px;
+      }
+      &:last-child {
+        margin: 0px 0px 101px 0px;
+      }
+    }
+  }
+  .our_best {
+    background: url('../../../public/img/icons/our-paper.svg') 0 0 / auto auto
+      no-repeat;
+  }
+}
