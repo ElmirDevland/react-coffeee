@@ -1,0 +1,29 @@
+.card {
+  color: #000;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.65);
+  width: 220px;
+  height: 240px;
+  padding: 22px 21.5px !important;
+  font-size: 14px;
+  margin: 0px 71px 55px 0px !important;
+  &:nth-child(3n) {
+    margin-right: 0 !important;
+  }
+
+  img {
+    margin: 0px 0px 14px 0px;
+    width: 167px;
+    height: 134px;
+    object-fit: contain;
+  }
+  p {
+    &:not(:last-child) {
+      margin: 0px 0px 10px 0px;
+    }
+    &:last-child {
+      text-align: end;
+      font-weight: 700;
+    }
+  }
+}

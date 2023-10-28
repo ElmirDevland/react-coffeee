@@ -1,9 +1,9 @@
-.App {
+.wrapper {
   * {
     padding: 0;
     margin: 0;
-    border: 0;
   }
+
   *,
   *:before,
   *after {
@@ -78,8 +78,13 @@
     font-size: inherit;
     font-weight: 400;
   }
-}
-.wrapper {
-  width: 1440px;
+  font-family: Merienda;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  max-width: 1440px;
   margin: 0 auto;
 }

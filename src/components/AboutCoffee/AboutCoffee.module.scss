@@ -1,0 +1,53 @@
+.header_about {
+  background: url('../../../public/img/aboutcoffee-bg.svg') center no-repeat;
+  height: 640px;
+  padding: 0px 148px 0px 148px !important;
+  h1 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    margin: 0px 0px 20px 0px !important;
+  }
+  .beans_img {
+    display: inline-block;
+    margin: 0px 0px 35px 0px;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: '';
+      top: 50%;
+      right: 200%;
+      width: 60px;
+      height: 1px;
+      background-color: #fff;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    &::after {
+      position: absolute;
+      content: '';
+      top: 50%;
+      left: 200%;
+      width: 60px;
+      height: 1px;
+      background-color: #fff;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+  }
+  h3 {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    margin: 0px 0px 20px 0px !important;
+  }
+  button {
+    border-radius: 3px;
+    border: 1px solid #fff !important;
+    background: rgba(196, 196, 196, 0);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    padding: 5px 42px 10px 42px !important;
+    width: 120px;
+    height: 30px;
+    margin: 0px 0px 201px 0px !important;
+  }
+}
