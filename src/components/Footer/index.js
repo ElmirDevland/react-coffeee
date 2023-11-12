@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './Footer.module.scss';
 
 const Footer = () => {
@@ -5,13 +6,19 @@ const Footer = () => {
     <>
       <div className={styles.footer}>
         <ul>
-          <li>Coffee house</li>
-          <li>Our coffee</li>
-          <li>For your pleasure</li>
+          <Link to={'/'}>
+            <li>Coffee house</li>
+          </Link>
+          <Link to={'/ourcoffee'}>
+            <li>Our coffee</li>
+          </Link>
+          <Link to={'/foryourpleasure'}>
+            <li>For your pleasure</li>
+          </Link>
         </ul>
       </div>
       <div className={styles.beans_img_black}>
-        <img src="./img/icons/coffee-beans-black.svg" alt="coffeebeans" />
+        <img src="../img/icons/coffee-beans-black.svg" alt="coffeebeans" />
       </div>
     </>
   );

@@ -1,18 +1,7 @@
-import Header from '../components/Header';
-import AboutCoffee from '../components/AboutCoffee';
-import AboutUs from '../components/AboutUs';
-import OurBest from '../components/OurBest';
-import Footer from '../components/Footer';
+import MainPage from '../components/MainPage';
 
-const Home = () => {
-  return (
-    <>
-      <AboutCoffee />
-      <AboutUs />
-      <OurBest />
-      <Footer />
-    </>
-  );
+const Home = ({ products }) => {
+  return <MainPage products={products} />;
 };
 
 export default Home;

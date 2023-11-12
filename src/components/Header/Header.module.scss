@@ -2,8 +2,10 @@
   padding-top: 52px !important;
   ul {
     display: flex;
-    li {
+    a {
       cursor: pointer;
+      text-decoration: none;
+      color: #ffffff;
       &:first-child {
         position: relative;
         &::before {

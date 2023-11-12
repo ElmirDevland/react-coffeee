@@ -1,12 +1,19 @@
+import { Link } from 'react-router-dom';
 import styles from './Header.module.scss';
 
 const Header = () => {
   return (
     <div className={styles.header_nav}>
       <ul>
-        <li>Coffee house</li>
-        <li>Our coffee</li>
-        <li>For your pleasure</li>
+        <Link to={'/'}>
+          <li>Coffee house</li>
+        </Link>
+        <Link to={'/ourcoffee'}>
+          <li>Our coffee</li>
+        </Link>
+        <Link to={'/foryourpleasure'}>
+          <li>For your pleasure</li>
+        </Link>
       </ul>
     </div>
   );

@@ -9,8 +9,10 @@
   ul {
     display: flex;
     padding: 0px 0px 0px 20px;
-    li {
+    a {
       cursor: pointer;
+      text-decoration: none;
+      color: #000;
       &:first-child {
         position: relative;
         &::before {
