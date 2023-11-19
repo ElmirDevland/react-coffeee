@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import OurCoffee from './pages/OurCoffee';
+import ForYourPleasure from './components/ForYourPleasure';
 
 function App() {
   const products = [
@@ -31,6 +32,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home products={products} />} />
           <Route path="/ourcoffee/*" element={<OurCoffee />} />
+          <Route path="/foryourpleasure/*" element={<ForYourPleasure />} />
         </Routes>
       </div>
     </div>

@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import styles from './OurCoffee.module.scss';
 import Header from '../Header';
 import Footer from '../Footer';
-import AboutOurBeans from '../AboutOurBeans';
+import AboutOurBeans from './AboutOurBeans';
 import AboutIt from '../AboutIt';
 
 const OurCoff = () => {

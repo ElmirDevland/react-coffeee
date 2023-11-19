@@ -1,6 +1,6 @@
 import styles from './AboutIt.module.scss';
 
-const About = () => {
+const AboutIt = () => {
   return (
     <div className={styles.AboutIt}>
       <div className={styles.img}>
@@ -34,4 +34,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutIt;
